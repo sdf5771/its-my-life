@@ -1,0 +1,39 @@
+.white_theme_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    height: 36px;
+    border-radius: 18px;
+    background-color: #fff;
+    color: #3c5f84;
+    border: 1px solid #3c5f84;
+    outline: none;
+    cursor: pointer;
+    gap: 5px;
+}
+.white_theme_btn:active{
+    border: 0;
+    outline: none;
+}
+
+.blue_theme_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    height: 36px;
+    border-radius: 18px;
+    background-color: #3c5f84;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    gap: 5px;
+}
+.blue_theme_btn:active{
+    border: 0;
+    outline: none;
+}

@@ -1,0 +1,88 @@
+.login_main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.login_header{
+    margin-top: 90px;
+    padding: 0 20px;
+    width:calc(100% - 40px);
+    display: flex;
+    justify-content:center;
+    align-content:center;
+}
+.login_header > span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.login_body{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    width: calc(100% - 60px);
+    height: calc(100% - 120px);
+}
+.input_container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:center;
+}
+.forgot_password_container{
+    margin-top: 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 40px);
+    cursor: pointer;
+}
+.forgot_password_container > span{
+    font-size: 0.6rem;
+    color: #3a6186;
+    font-weight: 500;
+}
+.btn_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.cross_line_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    gap: 5px;
+}
+.cross_line_container > .line{
+    width: 110px;
+    border-bottom: 1px solid #a9a9a9;
+    margin-bottom: 8px;
+}
+.cross_line_container > div > span{
+    font-size: 0.8rem;
+    font-weight:500;
+    color: #a9a9a9;
+}
+.sign_up_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.sign_up_container > span:first-child{
+    font-size: 0.8rem;
+    color: #a9a9a9;
+}
+.sign_up_container > span:last-child{
+    font-size: 0.8rem;
+    color: #3c5f84;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.auth_presenter_main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.auth_form_main{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid #eaeaea;
+}
+.left_side_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+    height: 100%;
+}
+.background_image{
+    width: 500px;
+    height: 500px;
+    background-image: url(images/auth/busy-project-manager-overwhelmed-by-work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.right_side_container{
+    display: flex;
+    min-width: 350px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+}

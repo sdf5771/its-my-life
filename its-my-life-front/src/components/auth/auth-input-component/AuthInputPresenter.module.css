@@ -1,0 +1,38 @@
+.auth_input_main{
+    display: flex;
+    flex-direction: row;
+    min-width: 230px;
+    max-width: 230px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.auth_input_image{
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.auth_input{
+    width: calc(100% - 20px - 15px - 5px);
+}
+.auth_input > input{
+    font-size: 0.8rem;
+}
+.auth_input > input::placeholder{
+    font-size: 0.8rem;
+}
+.auth_input > input{
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: inherit;
+}
+.eye_icon_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
