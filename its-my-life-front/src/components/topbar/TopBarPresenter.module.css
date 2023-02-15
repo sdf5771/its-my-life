@@ -4,7 +4,42 @@
     left: 0;
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 50px;
-    background-color: #eaeaea;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: calc(100vw - 60px);
+    height: 65px;
+}
+.left_bar_container{
+    display: flex;
+    width: 140px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu_btn_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.menu_btn_container:hover{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #CDBCCC;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+.menu_btn{
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-radius: 14px;
+    background-image: url('components/topbar/image/menu.gif')
 }

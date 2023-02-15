@@ -1,0 +1,9 @@
+.clock_main{
+
+}
+.clock_main > span{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 0.5;
+}
